@@ -1,0 +1,46 @@
+.register-form{
+    width:600px;
+    max-width:600px;
+    display:grid;
+    column-gap:25px;
+    grid-template-columns:1fr 1fr;
+}
+.create-button{
+     font-family:"Nunito";
+     font-size:14pt;
+     color:white;
+     width:200px;
+     padding:6px 0;
+     background-color:var(--purple);
+     outline:none;
+     border:none;
+     border-radius:4px;
+     margin:15px 0;
+     cursor: pointer;
+     transition: all .15s ease;
+ }
+ .create-button:hover{
+    transform: scale(1.02);
+ }
+ .create-button:focus{
+    transform: scale(.98);
+
+ }
+ 
+label{
+     margin-top:10px;
+     grid-column:span 2;
+ }
+ .register-form h2{
+    font-weight:550;
+    font-size:22pt;
+    margin-bottom:30px;
+    grid-column:span 2;
+
+}
+.register-form p{
+    font-size: 12pt;
+    margin-bottom: 10px;
+    grid-column:span 2;
+
+}

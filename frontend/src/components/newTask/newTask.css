@@ -1,0 +1,46 @@
+:root{
+    --main-purple: rgb(103, 45, 255);
+}
+.new-task{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgba(230, 230, 230, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-task .add-button{
+    padding: 6px 32px;
+    border-radius: 5px;
+    transition: all .15s ease;
+    background-color: var(--main-purple);
+    color: white;
+    cursor: pointer;
+    
+}
+.new-task .add-button:focus{
+    outline: none;
+}
+.new-task .add-button:hover{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   
+}
+.new-task .cancel-button{
+    padding: 6px 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+.new-task .cancel-button:hover{
+    box-shadow: 4px 4px 3px -3px rgba(103, 45, 255, 0.35);
+
+}
+.new-task div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}

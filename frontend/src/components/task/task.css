@@ -1,0 +1,27 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 14px;
+    border-radius: 8px;
+    transition: all .1s ease-in-out;
+}
+.task:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.39);
+    transform: translate(1px, 1px);
+}
+.title{
+    margin-bottom: 4px;
+}
+.description{
+    font-size: 11pt;
+    margin-bottom: 5px;
+}
+.author{
+    padding: 3px 5px;
+    background-color: rgba(103, 45, 255, 0.1);
+    color:rgb(103, 45, 255);
+    border-radius: 5px;
+    max-width:80% ;
+    margin-bottom: 5px;
+}

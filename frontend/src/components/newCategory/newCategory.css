@@ -1,0 +1,42 @@
+:root{
+    --main-purple: rgb(103, 45, 255);
+}
+
+.new-category{
+    width: 300px;
+    font-family: "Roboto";
+}
+
+.new-category .add-button{
+    padding: 6px 32px;
+    border-radius: 5px;
+    transition: all .15s ease;
+    background-color: var(--main-purple);
+    color: white;
+    cursor: pointer;
+    
+}
+.new-category .add-button:focus{
+    outline: none;
+}
+.new-category .add-button:hover{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   
+}
+.new-category .cancel-button{
+    padding: 6px 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+.new-category .cancel-button:hover{
+    box-shadow: 4px 4px 3px -3px rgba(103, 45, 255, 0.35);
+
+}
+.new-category div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}

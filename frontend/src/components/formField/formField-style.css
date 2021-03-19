@@ -1,0 +1,27 @@
+.field{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+.field label{
+    font-size:12pt;
+    margin:10px 0 3px 0;
+    
+}
+.field input{
+    font-size:10pt;
+    padding:8px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    transition: all .15s ease;
+    margin-bottom: 5px;
+    
+}
+.field input:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+}
+.field input:focus{
+    outline: none;
+    border:1px solid rgb(103, 45, 255);
+    box-shadow:0px 1px 10px 1px rgba(103, 45, 255, 0.3) ;
+}

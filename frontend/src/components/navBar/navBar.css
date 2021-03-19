@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background: rgb(103, 45, 255);
+}
+
+.navbar>ul{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.navbar li{
+    color: white;
+    opacity: 0.7;
+    font-size: 13pt;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    opacity: 1;
+}

@@ -1,0 +1,100 @@
+:root{
+    --main-purple: rgb(103, 45, 255);
+}
+
+
+.list-wrapper{
+    height: 60px;
+    background-color: rgb(235, 235, 235);
+    font-family: "Roboto";
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+}
+.sprint-number{
+    font-weight: 400;
+}
+.sprint-number>span{
+    color: white;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background-color: var(--main-purple);
+}
+.new-member-button{
+    color: var(--main-purple);
+    background: none;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14pt;
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all .15s ease;
+}
+.new-member-button:focus{
+    outline: none;
+}
+.new-member-button:hover{
+    cursor: pointer;
+    text-shadow:2px 2px 10px rgba(103, 45, 255, 0.5) ;
+}
+
+.list-commands{
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-commands>input{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all .15s ease;
+}
+.list-commands>input:focus{
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(103, 45, 255, 0.5)  ;
+}
+.list-commands>div>button{
+    padding: 6px 12px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: all .15s ease;
+}
+.list-commands>div>button:focus{
+    outline: none;
+}
+.list-commands>div>button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+}
+.list-commands>div>button:first-child{
+    background-color: var(--main-purple);
+    color: white;
+}
+
+.categories{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    overflow-y: scroll;
+    padding: 20px 5px;
+    display: flex;
+}
+.categories::-webkit-scrollbar{
+    display: none;
+} 
+
+.new-category-modal{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
